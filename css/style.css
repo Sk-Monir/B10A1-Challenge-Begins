@@ -237,8 +237,20 @@ Main Section End
 Footer Section Start
 ---------------------------------------------------------------------------
 -------------------------------------------------------------------------*/
-
-
+#footer{
+    background: rgba(13, 19, 33, 0.03);
+    padding: 32px;
+}
+#footer .row{ 
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 10px;
+}
+.footer_text{
+    color: #0D1321;
+    font-size: 20px;
+    font-weight: 600;
+}
 /* ------------------------------------------------------------------------
 ---------------------------------------------------------------------------
 Footer Section End
