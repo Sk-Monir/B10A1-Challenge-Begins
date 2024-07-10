@@ -59,12 +59,12 @@ section{
     font-size: 16px;
     font-weight: 700;
     text-decoration: underline;
+    padding: 13px 19px 13px 0px;
     transition: all linear 0.3s;
 }
 .link:hover{
     color:#fff;
     background: #0D1321;
-    border-radius: 8px;
     padding: 13px 19px;
     text-decoration: none;
 }
@@ -173,6 +173,32 @@ Main Section Start
     border-radius: 16px;
 }
 /* Inspiration Section End */
+/* Target Section Start*/
+#target .row{
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+.target_item{
+    width:365px;
+    height: 300px;
+    padding: 30px;
+    margin-top:50px;
+    border-radius: 16px;
+}
+.target_item img{
+    margin-bottom: 20px;
+}
+#target .item_1{
+    background: rgba(255, 76, 30, 0.05);
+}
+#target .item_2{
+    background: rgba(0, 76, 232, 0.05);
+}
+#target .item_3{
+    background: rgba(255, 223, 0, 0.05);
+}
+/* Target Section End*/
 /* ------------------------------------------------------------------------
 ---------------------------------------------------------------------------
 Main Section End
