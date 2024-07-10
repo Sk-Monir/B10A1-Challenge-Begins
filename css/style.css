@@ -1,0 +1,136 @@
+/* google fonts link Start */
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+/* google fonts link Start */
+/* common css start */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.center{
+    text-align: center;
+}
+.sec_ttl{
+    color: #0D1321;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+.sec_Sub_ttl{
+    color: #0D1321;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+.sec_Sub_ttl_2{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.sec_text{
+    color:#0D1321;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.link{
+    color:#0D1321;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: underline;
+    transition: all linear 0.3s;
+}
+.link:hover{
+    color:#fff;
+    background: #0D1321;
+    border-radius: 8px;
+    padding: 13px 19px;
+    text-decoration: none;
+}
+.btn{
+    color:#0D1321;
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid #0D1321;
+    border-radius: 8px;
+    padding: 17px 24px;
+    background: none;
+    transition: all linear 0.3s;
+}
+.btn:hover{
+    color:#fff;
+    background: #0D1321;
+}
+.text_secondary{
+    color: #fff;
+}
+/* common css start */
+/* ------------------------------------------------------------------------
+---------------------------------------------------------------------------
+Header Section Start
+---------------------------------------------------------------------------
+------------------------------------------------------------------------ */
+#navbar{
+    padding: 30px 0;
+}
+#navbar .sec_sub_ttl{
+    font-size: 28px;
+    margin-bottom: 0;
+}
+#navbar .row{
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ------------------------------------------------------------------------
+---------------------------------------------------------------------------
+Header Section end
+---------------------------------------------------------------------------
+------------------------------------------------------------------------ */
+
+
+/* ------------------------------------------------------------------------
+---------------------------------------------------------------------------
+Main Section Start
+---------------------------------------------------------------------------
+------------------------------------------------------------------------ */
+
+
+/* ------------------------------------------------------------------------
+---------------------------------------------------------------------------
+Main Section End
+---------------------------------------------------------------------------
+------------------------------------------------------------------------ */
+
+
+/* ------------------------------------------------------------------------
+---------------------------------------------------------------------------
+Footer Section Start
+---------------------------------------------------------------------------
+------------------------------------------------------------------------ */
+
+
+/* ------------------------------------------------------------------------
+---------------------------------------------------------------------------
+Footer Section End
+---------------------------------------------------------------------------
+------------------------------------------------------------------------ */
+
