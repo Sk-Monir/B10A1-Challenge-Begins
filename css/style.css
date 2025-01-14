@@ -263,6 +263,22 @@ Main Section Start
 }
 
 /* Target Section End*/
+/* Next Target Section start */
+#next_target .next_target_item {
+    border: 1px solid #0D132133;
+    border-radius: 16px;
+    padding: 40px;
+
+}
+
+#next_target .next_target_item {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    margin-top: 50px;
+}
+
+/* Next Target Section End */
 /* Support Section start */
 #support .container {
     background: linear-gradient(90deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url(../assets/handshake.jpg);
